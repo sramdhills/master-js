@@ -46,3 +46,22 @@ console.log(10 < 10);
 console.log(10 >= 10);
 console.log(10 <= 10);
 // - Equality Operators
+
+console.log(10 == 10);
+console.log(10 != 10);
+console.log(10 == '10');
+
+// CHALLENGE Comparison Operators and Equality Operators
+let firstFaveNumb  = 9
+let secondFavNumb  = 3
+
+console.log(firstFaveNumb > secondFavNumb);
+console.log(firstFaveNumb < secondFavNumb);
+console.log(firstFaveNumb >= secondFavNumb);
+console.log(firstFaveNumb <= secondFavNumb);
+
+console.log(firstFaveNumb === secondFavNumb);
+console.log(firstFaveNumb == secondFavNumb);
+console.log(firstFaveNumb !== secondFavNumb);
+console.log(firstFaveNumb != secondFavNumb);
+
