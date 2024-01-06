@@ -101,4 +101,21 @@ console.log(firstName.includes("h"));
 // 8. Trim 
 console.log(firstName.trim());
 
+let descFirstName = "Discpline"
+let descLastName = "Santillan"
 
+let fullName3 = `${descFirstName} ${descLastName} something`
+
+console.log(fullName3);
+
+
+//CHALLENGE STRING METHODS
+
+let favActorFirstName = 'Leo '
+let favActorLastName = 'DiCaprio'
+let fullNameActor = favActorFirstName.concat(favActorLastName)
+let uppercase = fullNameActor.toUpperCase()
+let message = `My favorite Actor is ${uppercase}, He is a legendary actor.`
+
+message += `his best show is The Wolf on Wall Street`
+console.log(message);
