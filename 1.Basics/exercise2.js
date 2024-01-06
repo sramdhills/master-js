@@ -119,3 +119,22 @@ let message = `My favorite Actor is ${uppercase}, He is a legendary actor.`
 
 message += `his best show is The Wolf on Wall Street`
 console.log(message);
+
+//Type Conversion
+let money = "50.234"
+
+//-Convert string to number
+// money = parseInt(money)
+// money = +money
+// money = Number(money)
+
+//-Conver number to string
+// money  = money.toString()
+// money = String(money)
+
+//-Convert string to decimal numbrt
+// money = parseFloat(money)
+
+
+console.log(money);
+console.log(typeof money);
