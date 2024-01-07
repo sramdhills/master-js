@@ -89,3 +89,26 @@ switch (fruit) {
     default:
         console.log("I have never heard of that fruit");
 }
+
+//FOR-LOOPS in JAVASCRIPT
+
+//DRY -> don't repeat yourself
+
+for (let i = 1; i <= 5; i++) {
+    console.log("Hello Discpline", i);
+}
+
+//nested loop
+
+for (let i = 1; i <= 4; i++) {
+    console.log('Outer loop', i);
+    for (let j = 1; j <= 5; j++){
+        console.log("Inner Loop", j);
+    }
+}
+
+//CHALLENGE FOR LOOP
+
+for (i = 0; i <= 1000; i++) {
+    console.log("Discpline", i);
+}
