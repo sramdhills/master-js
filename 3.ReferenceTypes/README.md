@@ -2,7 +2,7 @@
 | ---------- | :------------------------------------------------------------------------------------: |
 | concat()   |                     joins two or more arrays and returns a result                      |
 | includes() |                    checks if an array contains a specified element                     |
-| push()     |    aads a new element to the end of an array and returns the new length of an array    |
+| push()     |    adds a new element to the end of an array and returns the new length of an array    |
 | unshift()  | adds a new element to the beginning of an array and returns the new length of an array |
 | pop()      |          removes the last element of an array and returns the removed element          |
 | shift()    |         removes the first element of an array and returns the removed element          |
