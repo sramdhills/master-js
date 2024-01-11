@@ -6,6 +6,7 @@ const userInfo = {
     age: 19,
     location: ['Planet', 'Earth'],
     isProgrammer: true,
+    1: "Champion",
     
 }
 
@@ -15,9 +16,9 @@ console.log(userInfo);
  
 console.log(userInfo.age); //dot notation, works to string key only
 
-console.log(userInfo['lastName']);//bracket notation, works with numbered key
+console.log(userInfo['1']);//bracket notation, works with numbered key
 
-//NEW value to the Object
+//ADD NEW value to the Object
 
 userInfo.midName = "Determination"
 userInfo.newKey = "newValue"
