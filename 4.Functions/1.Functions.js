@@ -70,22 +70,22 @@ greetings("Sram")
 //     console.log(value);
 // })
 
-// //anothter callback function
+// // //anothter callback function
 
-// function greet(name, cb)  {
-//     console.log(`Hello ${name}`);
-//     cb()
-// }
+function greet(name, cb)  {
+    console.log(`Hello ${name}`);
+    cb()
+}
 
-// function cb() {
-//     console.log("I am a callback function");
-// }
+function cb() {
+    console.log("I am a callback function");
+}
 
-// greet("Dee", cb)
+greet("Dee", cb)
 
 //CHALLENGE CALLBACK FUNCTION
 
-function showCallFunc(fn) {
+function showCallFunc(fn){
     const value = 10
     fn(value)
 }
