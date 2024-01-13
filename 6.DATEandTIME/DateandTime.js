@@ -25,6 +25,6 @@ console.log(`Milliseconds: ${ms}`);
 
 //DATE methods
 console.log("Date Format Methods");
-console.log(date.toDateString());
-console.log(date.toISOString());
-console.log(date.toLocaleString());
+console.log(date.toDateString()); //Output: "Sat Jan 13 2024"
+console.log(date.toISOString()); //Output: "2024-01-13T22:25:00.000Z"
+console.log(date.toLocaleString()); //Output: "1/14/2024, 6:25:00 AM" (assuming your locale is Cagayan de Oro, Philippines)
