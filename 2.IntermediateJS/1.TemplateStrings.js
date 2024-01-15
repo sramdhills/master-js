@@ -22,6 +22,7 @@ function info() {
     return `My name is D for Discipline & I am 24 years old`
 }
 
+console.log(info());
 console.log(`${info()}`);
 
 //use template literals 
