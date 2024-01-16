@@ -39,3 +39,4 @@ const growth = "Determination"
 const mindset = "is in my Root"
 
 console.log(`My quote for today is "${growth} ${mindset}"`);
+

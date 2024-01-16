@@ -18,3 +18,16 @@ functionName = (num) => {
 }
 
 console.log(functionName(3));
+
+//practicing writing arrow functions
+
+funcArrow = (params) => {
+    return `That ${params}`
+}
+
+console.log(funcArrow("year "));
+
+//shorter
+const meet = year => `That ${year}` //function arrow expression
+
+console.log(meet(2024));
