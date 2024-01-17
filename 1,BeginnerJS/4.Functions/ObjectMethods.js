@@ -19,7 +19,7 @@
 const person = {
     name: "Dhills",
     age: 23,
-    greet: function(){
+    greet(){
         return `Hello, my name is ${person.name}, and I am ${person.age} years old`
     }
 }
