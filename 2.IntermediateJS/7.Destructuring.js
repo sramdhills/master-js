@@ -49,3 +49,13 @@ const colors = ['red', 'green', 'blue', 'yellow', 'orange']
 const [color1, color2, ...color3] = colors
 
 console.log(color1, color2, color3);
+
+//Object Destructuring
+//order does not matter, name does
+
+const student = {name: "Discipline", position: "first" }
+
+const {name, position} = student
+
+console.log(name, position);
+
