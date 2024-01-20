@@ -108,4 +108,31 @@ console.log(personCountry);
 
 
 
+//FUNCTION DESTRUCTURING in JS
 
+const people = {
+    name: "Function Destructuring",
+    age: 24,
+    country: "Norway"
+}
+function printPersonInfo({name, age, country}) { //Function Destructuring
+    console.log(`Name: ${name}`);
+    console.log(`Age: ${age}`);
+    console.log(`Country: ${country}`);
+}
+
+printPersonInfo(people)
+
+//another example of function destructuring
+
+let options = {
+    title: 'Dessert',
+    items: ['Leche flan', 'Fresh Lumpia'],
+}
+
+function showMenu({title, items}) {
+    console.log(`${title}`);
+    console.log(items);
+}
+
+showMenu(options)
