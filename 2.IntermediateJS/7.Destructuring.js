@@ -53,9 +53,59 @@ console.log(color1, color2, color3);
 //Object Destructuring
 //order does not matter, name does
 
-const student = {name: "Discipline", position: "first" }
+// const student = {name: "Discipline", position: "first" }
 
-const {name, position} = student
+// const {name, position} = student
 
-console.log(name, position);
+// console.log(name, position);
+
+ //CHALLENGE NUMBER 2
+//  const person = {
+//     name: "John Doe",
+//     age: 30,
+//     gender: "male",
+//     country: "Philippies",
+//  }
+
+//  const {name, age, gender, country} = person
+
+//  console.log(name);
+//  console.log(age);
+//  console.log(gender);
+//  console.log(country);
+
+
+
+ //RENAMING VARIABLES in OBJECT DESTRUCTURING
+
+ const num = {x: 100, y: 200}
+ const {x: newx, y: newy} = num
+
+ console.log(newx);
+ console.log(newy);
+
+ //Object DESTRUCTURING and REST OPERATOR
+
+ let{c,d, ...rest} = {c: 100, d:200, e:300, f:400}
+ console.log(c);
+console.log(d);
+console.log(rest);
+
+
+//CHALLENGE OBJECT DESTRUCTURING
+
+const person = {
+    name: "D Hills",
+    age: 24,
+    gender: "male",
+    country: 'Norway',
+}
+
+const {name: personName, age: personAge, country: personCountry} = person
+console.log(personName);
+console.log(personAge);
+console.log(personCountry);
+
+
+
 
