@@ -145,9 +145,12 @@ const songs = [
     {songname: "Woman Like Me", singer: "Little Mix", Duration: 4.21},
 ]
 
-const [,{songname}] = songs
-console.log(songname);
+const [song1,song2,song3] = songs
 
+console.log(`Song: ${song1.songname} - ${song1.singer}`);
+console.log(`Song: ${song2.songname} - ${song2.singer}`);
+console.log(`Song: ${song3.songname} - ${song3.singer}`);
+console.log();
 //Destructuring Mixture
 
 const data = {
@@ -173,7 +176,7 @@ const data = {
       { id: 2, name: "Phone", price: 800 },
       { id: 3, name: "Tablet", price: 500 },
     ],
-    
+
     settings: {
       darkMode: true,
       notifications: {
