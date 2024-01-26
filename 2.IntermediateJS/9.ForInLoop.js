@@ -19,3 +19,12 @@
     for (let key in list) {
         console.log(`${key}: `, list[key]); //key shows index number
     }
+
+
+//CHALLENGE for ...in loop
+
+const object = {a:1,b:2,c:3}
+
+for (let letter in object) {
+    console.log(`${letter}:`, object[letter]);
+}
