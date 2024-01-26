@@ -11,5 +11,11 @@
     }
 
     for (let keys in person) {
-        console.log(keys);
+        console.log(`${keys}: `, person[keys]); //keys shows property names
+    } 
+
+//Array For ... in loop
+    let list = ['one','two', 'three', 'four']
+    for (let key in list) {
+        console.log(`${key}: `, list[key]); //key shows index number
     }
