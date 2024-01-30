@@ -15,9 +15,10 @@ const arrNum = [1, 3, 5, 62, 566, 233]
 
 let sum = 0//sum variable
 
-function adder(number) {
-    sum += number
+function adder(num) {
+    sum += num
+    return sum
 }
 
 arrNum.forEach(adder)
-console.log(sum);
+console.log(sum);//return once the output is done
