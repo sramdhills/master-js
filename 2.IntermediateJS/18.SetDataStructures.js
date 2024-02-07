@@ -36,6 +36,19 @@ letters.add("a")
 letters.add("b")
 letters.add("c")
 
+
 for (let letter of letters) {
     console.log(letter);
+}
+
+
+//PERSONAL CHALLENGE - display the values without repetition.
+
+const NumberSet = [1, 2, 3, 2, 3, 21, 3, 21]
+
+const SetNumbers = new Set(NumberSet)
+console.log(SetNumbers);
+
+for (let numbers of SetNumbers) {
+    console.log(numbers);
 }
