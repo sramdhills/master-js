@@ -5,3 +5,5 @@ console.log(first.innerText);
 const second = document.querySelector(".second")
 console.log(second.textContent);
 // 3. Check the innerHTML of "third" element
+const third = document.querySelector(".third")
+console.log(third.innerHTML)                               
