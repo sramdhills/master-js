@@ -10,4 +10,4 @@ h1.classList.add("styles") //adds class "styles" to h1
 
 h1.classList.remove("styles")// removes class
 
-h1.classList.toggle('styles')
+h1.classList.toggle('styles')// toggles
