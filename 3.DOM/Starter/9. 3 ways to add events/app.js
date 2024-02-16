@@ -13,7 +13,10 @@ secondBtn.onclick = function() {
 // best.addEventListener("click", () => console.log("Yellow"))
 // ----------- Event (e) Object -----------
 
-const para = document. querySelector(".para")
-para.addEventListener("click", (event) => {
+const form = document. querySelector("form")
+const input = document.querySelector("input")
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
     console.log(event);
+    console.log(input.value);
 })
