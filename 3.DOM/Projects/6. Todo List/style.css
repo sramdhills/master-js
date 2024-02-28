@@ -29,7 +29,7 @@ input {
 }
 
 .todo {
-  border-left: 4px solid #ec5766;
+  border-left: 10px solid #0bb446;
   padding: 5px;
   color: rgb(75, 75, 75);
   display: flex;
