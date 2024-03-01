@@ -3,12 +3,22 @@
 // add an age and lastName to the 'you' Object, making sure to account for it in the Specialised
 // Object for defining its structure.
 
+// Array Types mini-challenge
+// Can you assign the correct Type to the reviews const? Please bear in mind everything
+// we have learnt about String, Boolean, Number, Object and Array Types for this.
+
+
 const returningUserDisplay = document.querySelector('#returning-user')
 const userNameDisplay = document.querySelector('#user')
 const reviewTotalDisplay = document.querySelector('#reviews')
 let isOpen: boolean
 
-const reviews = [
+const reviews: {
+    name: string
+    stars: number
+    loyaltyUser: boolean
+    date: string
+}[]= [
     {
         name: 'Sheia',
         stars: 5,
