@@ -43,11 +43,13 @@ const you: {
     lastName: string
     isReturning: boolean
     age: number
+    stayedAt: (string | number)[] //array types and union type
 } = {
    firstName: 'Bobby',
    lastName: 'The First',
    isReturning: true,
    age:23,
+   stayedAt: ['florida-home', 'oman-flat', 'tokyo-japan', 23]
 }
 
 console.log(you.userName);
