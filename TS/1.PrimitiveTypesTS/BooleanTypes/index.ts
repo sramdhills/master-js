@@ -4,8 +4,15 @@
 // parameters the function takes.
 // : boolean
 
-const reviewTotalDisplay = document.querySelector('#reviews')
+// Type Assignment and Type Interference
+// add a isOpen variable and assign it the boolean type
 
+
+const reviewTotalDisplay = document.querySelector('#reviews')
+const userNameDisplay = document.querySelector('#user')
+const returningUserDisplay = document.querySelector('#returning-user')
+
+let isOpen:  boolean
 let variable = true
 const reviews = [
     {
@@ -24,8 +31,8 @@ const reviews = [
         name: 'Omar',
         stars: 4,
         loyaltyUser: true,
-        date: '27-03-2021'
-    }   const iconDisplay = isLoyalty ? "✨"
+        date: '27-03-2021',
+    }
 ]
 
 // Solution
