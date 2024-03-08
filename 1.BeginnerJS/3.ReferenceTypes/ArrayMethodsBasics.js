@@ -11,7 +11,7 @@ const groceryList = [
 groceryList.push("Banana") //push new element at the end of the array
 console.log(groceryList);
 
-groceryList.pop() //pop out the last element of the array
+groceryList.pop() //returns an array without the last element
 console.log(groceryList); 
 
 groceryList.unshift("durian")// unshirt -add new element at the start of the array

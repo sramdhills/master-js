@@ -41,10 +41,10 @@
 // < Lesser than
 // >= Greater and Equal than
 // <= Lesser and Equal than
-console.log(10 > 10);
-console.log(10 < 10);
-console.log(10 >= 10);
-console.log(10 <= 10);
+console.log(10 > 10);//false
+console.log(10 < 10);//false
+console.log(10 >= 10);//true
+console.log(10 <= 10);//true
 // - Equality Operators
 
 console.log(10 == 10);
@@ -96,7 +96,7 @@ console.log(firstName.slice(1,3));
 console.log(firstName.split(' ').join(' '));
 
 // 7. Includes
-console.log(firstName.includes("h"));
+console.log(firstName.includes("h"));//boolean
 
 // 8. Trim 
 console.log(firstName.trim());
